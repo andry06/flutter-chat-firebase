@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "1073208071872",
+    "project_id": "mf4-firebase-ba9d8",
+    "storage_bucket": "mf4-firebase-ba9d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073208071872:android:abb60b94b17c5206ff7f25",
+        "android_client_info": {
+          "package_name": "com.example.flutter_chat_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073208071872-nnam4filesh8019qgl1bog6jlj6onmpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN_FNqT4d4HPqccjtITTFBIVev_reNbVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073208071872-2jk6qdd1mfp9a1fkcpi2fm401puf4p01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073208071872:android:616e69f0125c1a4aff7f25",
+        "android_client_info": {
+          "package_name": "com.jagoflutter.chat4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073208071872-nnam4filesh8019qgl1bog6jlj6onmpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN_FNqT4d4HPqccjtITTFBIVev_reNbVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073208071872-2jk6qdd1mfp9a1fkcpi2fm401puf4p01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073208071872:android:76dac5dba96cff07ff7f25",
+        "android_client_info": {
+          "package_name": "com.jagoflutter.firebase4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073208071872-9n8ph3v1pc19tqgiv5c2m0trelf31tas.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jagoflutter.firebase4",
+            "certificate_hash": "6e628df70054898cc4bcd753b2d089a8b862ac5e"
+          }
+        },
+        {
+          "client_id": "1073208071872-nnam4filesh8019qgl1bog6jlj6onmpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN_FNqT4d4HPqccjtITTFBIVev_reNbVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073208071872-2jk6qdd1mfp9a1fkcpi2fm401puf4p01.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
