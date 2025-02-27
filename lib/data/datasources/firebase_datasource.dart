@@ -18,4 +18,17 @@ class FirebaseDatasource {
         .doc(user.id)
         .set(user.toMap());
   }
+
+  Stream<List<UserModel>> allUser() {
+    return FirebaseFirestore.instance
+        .collection('users')
+        .snapshots()
+        .map((snapShot) {
+      List<UserModel> rs = [];
+      for (var element in snapShot.docs) {
+        rs.add(UserModel.fromDocumentSnapshot(element));
+      }
+      return rs;
+    });
+  }
 }

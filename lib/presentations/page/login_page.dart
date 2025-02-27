@@ -8,6 +8,7 @@ import 'package:flutter_chat_firebase/core/extensions/build_context_ext.dart';
 import 'package:flutter_chat_firebase/data/datasources/firebase_datasource.dart';
 import 'package:flutter_chat_firebase/data/models/user_model.dart';
 import 'package:flutter_chat_firebase/presentations/page/home_page.dart';
+import 'package:flutter_chat_firebase/presentations/page/main_page.dart';
 import 'package:flutter_chat_firebase/presentations/page/register_page.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
@@ -68,9 +69,9 @@ class _LoginPageState extends State<LoginPage> {
         password: passwordController.text,
       );
 
-      context.pushReplacement(HomePage(
-        currentUser: null,
-      ));
+      context.pushReplacement(MainPage(
+          // currentUser: null,
+          ));
     } catch (e) {
       showDialog(
         context: context,
@@ -133,9 +134,9 @@ class _LoginPageState extends State<LoginPage> {
                 await FirebaseDatasource.instance.setUserToFirestore(userModel);
               }
 
-              context.pushReplacement(HomePage(
-                currentUser: userCredential,
-              ));
+              context.pushReplacement(MainPage(
+                  // currentUser: userCredential,
+                  ));
             },
             child: Image.asset(
               "assets/images/google.png",
